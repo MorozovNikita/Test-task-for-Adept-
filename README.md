@@ -42,4 +42,6 @@ struct Object
 
     double GetDistance() const;
 };
-```    
+```
+---
+**Время потраченное на реализацию** ~6 часов
