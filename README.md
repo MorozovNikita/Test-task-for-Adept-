@@ -12,11 +12,11 @@
     -  /data2.txt - Файл для заполнения
 
 **Сборка**:
-![a](im1.png)
+![Assembly](im1.png)
 **Запуск**:
-![b](im2.png)
+![Launch](im2.png)
 **Заполнение**
-![c](im3.png)
+![Filling](im3.png)
     Можно добавить записи из нескольких файлов и отсортировав, сохранить в новый файл. 
     Для этого используются методы:
     - ListObjectWorker::AddAllObjects() //Добавить все объекты из файла
@@ -26,6 +26,7 @@
     - ListObjectsWorker::GroupByType(std::ostream &out, int min_count) //Группировать по типу
     - ListObjectsWorker::GroupByTime(std::ostream &out) //Группировать по времени создания
     
+---
 # Object
 ```C++
 struct Object
