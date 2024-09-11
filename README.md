@@ -1,6 +1,6 @@
 # Тестовое задание компании "Адепт"
 
-**Список файлов**:
+- **Список файлов**:
 - /Sourses/
     - /Controller.h - Класс, использующий интерфейс ListObjectWorker
     - /listobjectsworker.h 
@@ -11,15 +11,21 @@
     -  /data.txt - Файл для заполнения 
     -  /data2.txt - Файл для заполнения
 
-**Заполнение**
-    Можно добавить записи из нескольких файлов и отсортировав, сохранить в новый файл. 
-    Для этого используются методы:
-    - ListObjectWorker::AddAllObjects() //Добавить все объекты из файла
-    - ListObjectsWorker::AddObject(size_t idx) //Добавить объект по его индексу
-    - ListObjectsWorker::GroupByDistance(std::ostream &out) //Группировать по расстоянию
-    - ListObjectsWorker::GroupByName(std::ostream &out) //группировать по имени
-    - ListObjectsWorker::GroupByType(std::ostream &out, int min_count) //Группировать по типу
-    - ListObjectsWorker::GroupByTime(std::ostream &out) //Группировать по времени создания
+- **Сборка**:
+![Assembly](im1.png)
+- **Запуск**:
+![Launch](im2.png)
+- **Заполнение**
+![Filling](im3.png)
+
+Можно добавить записи из нескольких файлов и отсортировав, сохранить в новый файл. 
+Для этого используются методы:
+- ListObjectWorker::AddAllObjects() //Добавить все объекты из файла
+- ListObjectsWorker::AddObject(size_t idx) //Добавить объект по его индексу
+- ListObjectsWorker::GroupByDistance(std::ostream &out) //Группировать по расстоянию
+- ListObjectsWorker::GroupByName(std::ostream &out) //группировать по имени
+- ListObjectsWorker::GroupByType(std::ostream &out, int min_count) //Группировать по типу
+- ListObjectsWorker::GroupByTime(std::ostream &out) //Группировать по времени создания
     
 ---
 # Object
